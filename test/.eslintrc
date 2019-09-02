@@ -1,0 +1,22 @@
+{
+    "env": {
+        "mocha": true
+    },
+    "globals": {
+        "chai": true,
+        "expect": true,
+        "app": true,
+        "inspect": true,
+        "sequelize": true,
+        "User": true
+    },
+    "rules": {
+        "prefer-const": "warn",
+        "node/no-unpublished-require": [
+            "warn",
+            {
+                "allowModules": ["chai", "chai-http"]
+            }
+        ]
+    }
+}
